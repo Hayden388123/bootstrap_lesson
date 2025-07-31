@@ -1,0 +1,93 @@
+.block1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: #a0e9ee;
+  position: relative;
+}
+.block1 .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.block2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: #961396;
+}
+
+.block3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: #0f0e5c;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-36 {
+  font-size: 36px;
+}
+
+.fz-40 {
+  font-size: 40px;
+}
+
+.fz-44 {
+  font-size: 44px;
+}
+
+.fz-48 {
+  font-size: 48px;
+}
+
+.fz-52 {
+  font-size: 52px;
+}
+
+.fz-56 {
+  font-size: 56px;
+}
+
+.fz-60 {
+  font-size: 60px;
+}
+
+.fz-64 {
+  font-size: 64px;
+}
+
+.fz-68 {
+  font-size: 68px;
+}
+
+.fz-72 {
+  font-size: 72px;
+}/*# sourceMappingURL=testSass.css.map */
