@@ -1,15 +1,41 @@
 @use 'mixin' as *
 
-@include hnpx(25)
-@include wnpx(25)
-@include hnpx(30)
-@include wnpx(30)
-@include hnpx(50)
-@include wnpx(50)
-@include hnpx(200)
+@include hnpx(150)
+@include hnpx(250)
 @include hnpx(300)
-@include wnpx(400)
+@include wnpx(150)
 
-input
-    &::placeholder
-        color: #645d5d!important
+.min200vh
+    min-height: 200vh
+
+.top70
+    top: 70px
+.bw2px
+    border-width: 2px
+
+.navbar
+    .container
+        .navbar-collapse
+            .search
+                width: 200px
+                transition: all 0.4s
+                &:focus-within
+                    width: 600px
+                input
+                    &::placeholder
+                        color: gray
+            .btn-1
+                color: #919191
+                &:hover
+                    color: #ffffff
+header
+    background-image: url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg)
+    background-position: bottom center
+    background-size: cover
+
+aside
+    .container
+        .nav
+            .nav-link
+                &.active
+                    border-bottom: 2px solid #0353ff
